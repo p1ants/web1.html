@@ -29,8 +29,34 @@
 <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
 <img src="html.jpg" width="550">  <!-- 사진을 첨부하고 크기까지 웹에 맞춰 설정...-->
 
+<p>
+<!-- 라이브리 시티 설치 코드 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC81MzU3My8zMDA0Ng==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+</div>
+<!-- 시티 설치 코드 끝 -->    
+</p>
 
 </body>
 </html>
 
-<!-- 만들때 깃허브 사용법.. -->
+<!-- 만들때 깃허브 사용법.. uload files 눌러서 작업한거 다올리셈. 그리고 수정할거있으면 또 업로드하고 
+설정 -> 깃허브 페이지 -> 소스 -> main branch 눌러야함.. 그럼 웹페이지의 주소가 할당될것임.. 제목에 .html 하고 rename 해야 정상작동됨..-->
+<!-- web hosting 이라고 검색하면 깃허브 같은거 많으미-->
+
+<!-- 웹서버를 운영하기위해 아파치를 설치해야함..-->
+
+<!-- 127.0.0.1/index.html <<< 웹 브라우저가 설치되어있는 웹서버 약속되어있는 주소.-> 웹브라우저가 > 웹서버 -->
